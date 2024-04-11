@@ -22,7 +22,6 @@ function copytoclipboard(id){
   txt = document.getElementById(id).className;
   navigator.clipboard.writeText(txt);
   document.getElementById(id).textContent = 'Copied';
-  document.getElementById(id).classList.add("copied")
   setTimeout(() => {
     document.getElementById(id).textContent = 'Copy';
   }, 1000);
