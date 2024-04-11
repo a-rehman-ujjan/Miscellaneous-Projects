@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Generate Random Colors</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <h1>Random Color Generator</h1>
+    <p>Click the button to generate random colors.</p>
+    <button id="generateButton" onclick="generateRandomColor()">Generate</button>
+    <div id="colorsBox">
+      <div id="colorBox1" class="colorbox">
+        <div id="cb1Code" class="closed"></div>
+        <button id="cb1Button" class="closed" onclick="copytoclipboard('cb1Button')">Copy</button>
+      </div>
+      <div id="colorBox2" class="colorbox">
+        <div id="cb2Code" class="closed"></div>
+        <button id="cb2Button" class="closed" onclick="copytoclipboard('cb2Button')">Copy</button>
+      </div>
+      <div id="colorBox3" class="colorbox">
+        <div id="cb3Code" class="closed"></div>
+        <button id="cb3Button" class="closed" onclick="copytoclipboard('cb3Button')">Copy</button>
+      </div>
+      <div id="colorBox4" class="colorbox">
+        <div id="cb4Code" class="closed"></div>
+        <button id="cb4Button" class="closed" onclick="copytoclipboard('cb4Button')">Copy</button>
+      </div>
+      <div id="colorBox5" class="colorbox">
+        <div id="cb5Code" class="closed"></div>
+        <button id="cb5Button" class="closed" onclick="copytoclipboard('cb5Button')">Copy</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
